@@ -17,7 +17,7 @@ public class RegHarry {
     }
 
     public Boolean harry(String str) {
-        Pattern pattern = Pattern.compile(".*Harry ");
+        Pattern pattern = Pattern.compile("Harry");
             Matcher m = pattern.matcher(str);
             if(m.find()){
                 return true;
